@@ -388,7 +388,7 @@ window.fill(background_color) # Initialisation of the background
 pg.display.set_caption('Tetris') # Setting of the window's name
 game_grid = grid(horizontal_size, vertical_size, block_size, window) # Initialisation of the grid
 background = pg.image.load("white_BG.jpg").convert() # Initialisation of the grid background
-game_over_screen = pg.image.load("game-over.png").convert_alpha() # Initialisation of the game over screen
+game_over_screen = pg.image.load("game_over.png").convert_alpha() # Initialisation of the game over screen
 pause = pg.image.load("pause.png").convert_alpha() # Initialisation of the pause image
 font = pg.font.SysFont("Comic Sans MS", 30) # Initialisation of the font for labels
 
